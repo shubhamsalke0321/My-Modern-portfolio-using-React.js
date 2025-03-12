@@ -1,0 +1,39 @@
+.navbar{
+    position: fixed;
+  
+}
+.navbar-brand{
+    margin-left: 40px;
+}
+.navbar-nav{
+    display: flex;
+    justify-content: space-between;
+    margin:auto;
+}
+.nav-item{
+    margin:5px 0px 0px 40px;
+    
+}
+.navbar-expand-lg{
+    background-color: rgb(2, 2, 28);
+    color: aqua;
+    
+}
+p{
+    color: aquamarine;
+    font-weight: bold;
+    font-size: 20px;
+}
+.nav-connect{
+    padding: 2px 20px;
+    border-radius: 50px;
+    background: linear-gradient(267deg,orange 0.36%,rgb(172, 55, 75) 102.06%);
+   cursor:pointer;
+   padding-top: 10px;
+   transition: 0.2s;
+}
+.nav-connect:hover{
+    transform: scale(1.07);
+    border:solid 2px rgb(32, 180, 160);
+}
+

@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.About{
+    background: linear-gradient(to right, #8e9eab, #eef2f3);
+    padding-bottom: 90px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+    
+    
+}
+.About .heading{
+   text-align: center ;
+    color: aliceblue;
+    margin: 40px 0px 20px 0px ;
+    
+    
+}
+.About_me p{
+    margin: 30px 50px;
+    color: black;
+
+}
+.photo img{
+    border:solid 3px  black;
+    border-radius: 1%;
+    display: flex;
+    justify-content: center;
+    height: 400PX;
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 30px;
+}

@@ -1,0 +1,75 @@
+
+.Home{
+   
+    background: linear-gradient(to left, #8e9eab, #82d3e7);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.profile_image img{
+    margin-top: 35px;  
+    border-radius: 50%;
+    max-width: 100%;
+    max-height: 100%;
+    height: 350px;
+    
+}
+.name h1{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    margin-top: 15px;
+}
+.course h2{
+    text-align: center;
+    color:rgb(201,79,176);
+    font-size: 40px;
+}
+.text h1{
+    text-align: center;
+    color: rgb(10, 64, 151);
+    font-size: 25px;
+    margin-top: 15px;
+}
+.Home-action{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 25px;
+    margin:15px 0px 30px 0px;
+    
+}
+.Home-connect{
+    
+   padding: 10px 10px;
+    border-radius: 50px;
+    background: linear-gradient(264deg , orange -5.09%, rgb(135, 5, 100) 106.28%);
+    cursor: pointer;
+    color: aliceblue;
+    margin: 10px 10px;
+   
+    
+}
+.Home-connect:hover{
+    border: 2px solid rgb(255, 255, 255);
+}
+
+.Home-Resume{
+   
+    padding: 10px 10px;
+    border-radius: 50px;
+    background: linear-gradient(264deg , #001aff -5.09%, rgb(135, 5, 100) 106.28%);
+    cursor: pointer;
+    color: aliceblue;
+    margin: 10px 10px;
+    
+}
+.Home-Resume:hover{
+    border: 4px solid rgb(161, 163, 8);
+
+}
+
+
+

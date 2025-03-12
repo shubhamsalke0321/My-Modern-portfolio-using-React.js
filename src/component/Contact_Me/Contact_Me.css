@@ -1,0 +1,23 @@
+.Contact_Me{
+    background: linear-gradient(to left, hsl(207, 16%, 32%), #eef2f3); 
+   
+}
+.Contact_Me_2{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.Contact_Me .row{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+
+/* footer */
+.footer{
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+}

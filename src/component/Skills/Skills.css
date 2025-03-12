@@ -1,0 +1,184 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+}
+.Skills{
+  background: linear-gradient(to right, #8e9eab, #eef2f3); 
+}
+
+:root{
+  --color-text: #616161;
+  --color-text-btn: #ffffff;
+  --card1-gradient-color1: rgb(13, 116, 190);
+  --card1-gradient-color2: hsl(146, 72%, 63%);
+  --card2-gradient-color1: #7F00FF;
+  --card2-gradient-color2: #E100FF;
+  --card3-gradient-color1: #3f2b96;
+  --card3-gradient-color2: #a8c0ff;
+  --card4-gradient-color1: #11998e;
+  --card4-gradient-color2: #38ef7d;
+  --card5-gradient-color1: #f6ee0f;
+  --card5-gradient-color2: #190a8c;
+  --card6-gradient-color1: #991169;
+  --card6-gradient-color2: hsl(113, 85%, 58%);
+  --card7-gradient-color1: hsl(0, 75%, 46%);
+  --card7-gradient-color2: hsl(181, 85%, 58%);
+  --card8-gradient-color1: #210d85;
+  --card8-gradient-color2: #30a00b;
+  --card9-gradient-color1: #ce3014;
+  --card9-gradient-color2: #056291;
+  --card10-gradient-color1: #1e0b93;
+  --card10-gradient-color2: #de11c6;
+  --card11-gradient-color1: #e7ee60;
+  --card11-gradient-color2: #de11c6;
+}
+.Skills body{
+  font-family: 'Roboto', sans-serif;
+  background: linear-gradient(to right, #8e9eab, #eef2f3); 
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 60px;
+  padding-bottom:90px;
+}
+
+.Head{
+    display: flex;
+    justify-content: center;
+    margin: 50px 0px 0px 0px;
+}
+
+
+
+
+.card-wrap{
+  width: 220px;
+  background:  #b879e0;
+  border-radius: 20px;
+  border: 5px solid #fff;
+  overflow: hidden;
+  color: var(--color-text);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px,
+              rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  cursor: pointer;
+  transition: all .2s ease-in-out;
+}
+.card-wrap:hover{
+  transform: scale(1.1);
+}
+.Skills img{
+  height: 200px;
+  width: 200px;
+  mix-blend-mode:multiply;
+}
+.card-header{
+  height: 200px;
+  width: 100%;
+  background: red;
+  border-radius:100% 0% 100% 0% / 0% 50% 50% 100%;
+  display: grid;
+  place-items: center;
+
+}
+.git{
+  padding-bottom: 50px;
+}
+
+.card-header i{
+  color: #fff;
+  font-size: 72px;
+}
+.card-content{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+}
+.card-title{
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 16px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  
+}
+.card-text{
+  text-align: center;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+
+.card-header.one{
+  background: linear-gradient(to bottom left, var(--card1-gradient-color1), var(--card1-gradient-color2));
+}
+.card-header.two{
+  background: linear-gradient(to bottom left, var(--card2-gradient-color1), var(--card2-gradient-color2));
+}
+.card-header.three{
+  background: linear-gradient(to bottom left, var(--card3-gradient-color1), var(--card3-gradient-color2));
+}
+.card-header.four{
+  background: linear-gradient(to bottom left, var(--card4-gradient-color1), var(--card4-gradient-color2));
+}
+.card-header.five{
+  background: linear-gradient(to bottom left, var(--card5-gradient-color1), var(--card5-gradient-color2));
+}
+.card-header.six{
+  background: linear-gradient(to bottom left, var(--card6-gradient-color1), var(--card6-gradient-color2));
+}
+.card-header.seven{
+  background: linear-gradient(to bottom left, var(--card7-gradient-color1), var(--card7-gradient-color2));
+}
+.card-header.eight{
+  background: linear-gradient(to bottom left, var(--card8-gradient-color1), var(--card8-gradient-color2));
+}
+.card-header.nine{
+  background: linear-gradient(to bottom left, var(--card9-gradient-color1), var(--card9-gradient-color2));
+}
+.card-header.ten{
+  background: linear-gradient(to bottom left, var(--card10-gradient-color1), var(--card10-gradient-color2));
+}
+.card-header.eleven{
+  background: linear-gradient(to bottom left, var(--card11-gradient-color1), var(--card11-gradient-color2));
+}
+
+
+/*  */
+
+.card-btn.one{
+  background: linear-gradient(to left, var(--card1-gradient-color1), var(--card1-gradient-color2));
+}
+.card-btn.two{
+  background: linear-gradient(to left, var(--card2-gradient-color1), var(--card2-gradient-color2));
+}
+.card-btn.three{
+  background: linear-gradient(to left, var(--card3-gradient-color1), var(--card3-gradient-color2));
+}
+.card-btn.four{
+  background: linear-gradient(to left, var(--card4-gradient-color1), var(--card4-gradient-color2));
+}
+.card-btn.five{
+  background: linear-gradient(to left, var(--card5-gradient-color1), var(--card5-gradient-color2));
+}
+.card-btn.six{
+  background: linear-gradient(to left, var(--card6-gradient-color1), var(--card6-gradient-color2));
+}
+.card-btn.seven{
+  background: linear-gradient(to left, var(--card7-gradient-color1), var(--card7-gradient-color2));
+}
+.card-btn.eight{
+  background: linear-gradient(to left, var(--card8-gradient-color1), var(--card8-gradient-color2));
+}
+.card-btn.nine{
+  background: linear-gradient(to left, var(--card9-gradient-color1), var(--card9-gradient-color2));
+}
+.card-btn.ten{
+  background: linear-gradient(to left, var(--card10-gradient-color1), var(--card10-gradient-color2));
+}
+.card-btn.eleven{
+  background: linear-gradient(to left, var(--card11-gradient-color1), var(--card11-gradient-color2));
+}
